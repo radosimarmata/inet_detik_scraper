@@ -1,0 +1,23 @@
+{
+  "name": "inet_detik_scraper",
+  "version": "1.0.0",
+  "description": "A web scraper for inet.detik.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radosimarmata/inet_detik_scraper.git"
+  },
+  "keywords": [
+    "scraper",
+    "detik"
+  ],
+  "author": "rado simarmata",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1",
+    "puppeteer": "^22.13.1"
+  }
+}
