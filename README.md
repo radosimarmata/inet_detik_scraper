@@ -17,23 +17,24 @@ Sebelum memulai, pastikan Anda memiliki [Node.js](https://nodejs.org/) dan [npm]
 
   Clone repository ini ke mesin lokal Anda:
 
-  ```bash
+  ```
   git clone https://github.com/radosimarmata/inet_detik_scraper.git
+  ```
 
 2. **Navigasi ke Direktori Proyek**
   Pindah ke direktori proyek:
-  ```bash
+  ```
   cd inet_detik_scraper
-
+  ```
 3. **Instal Dependensi**
   Instal dependensi yang diperlukan dengan npm:
-  ```bash
+  ```
   npm install
-
+  ```
 ## Penggunaan
   Jalankan skrip scraping dengan perintah berikut:
 
-  ```bash
+  ```
   node index.js
   ```
   Skrip ini akan membuka browser, mengunjungi halaman https://inet.detik.com/indeks, dan mencetak data berita yang diambil ke konsol.
