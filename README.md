@@ -1,10 +1,10 @@
 # inet_detik_scraper
 
-`inet_detik_scraper` adalah sebuah proyek web scraper yang dirancang untuk mengambil data berita dari situs web Detik.com. Proyek ini menggunakan Puppeteer untuk mengotomatisasi browser dan mengekstrak informasi dari halaman web.
+`inet_detik_scraper` adalah sebuah proyek web scraper yang dirancang untuk mengambil data berita dari situs web https://inet.detik.com. Proyek ini menggunakan Puppeteer untuk mengotomatisasi browser dan mengekstrak informasi dari halaman web.
 
 ## Fitur
 
-- Mengambil judul berita, URL, gambar, dan tanggal dari halaman Detik.com.
+- Mengambil judul berita, URL, gambar, dan tanggal dari halaman https://inet.detik.com.
 - Menggunakan Puppeteer untuk mengotomatisasi proses scraping.
 
 ## Prasyarat
@@ -37,4 +37,4 @@ Sebelum memulai, pastikan Anda memiliki [Node.js](https://nodejs.org/) dan [npm]
   ```
   node index.js
   ```
-  Skrip ini akan membuka browser, mengunjungi halaman https://inet.detik.com/indeks, dan mencetak data berita yang diambil ke konsol.
+  Skrip ini akan membuka browser, mengunjungi halaman https://inet.detik.com, dan mencetak data berita yang diambil ke results.
